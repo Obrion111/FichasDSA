@@ -129,6 +129,20 @@ public class NewEmptyJUnitTest {
     
     
     
+    @Test
+    public void testeClone() throws CloneNotSupportedException{
+        
+        
+        
+        Complexo c1 = new Complexo(1,1);
+        
+        Complexo c2 = (Complexo)c1.clone();
+        
+        assertEquals(c1, c2);
+    }
+    
+    
+    
     
     
 }
