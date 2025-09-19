@@ -175,7 +175,7 @@ public class Complexo {
     public Object clone() throws CloneNotSupportedException{
         
         
-        return super.clone();
+        return new Complexo(real,imaginario);
     }
     
     
